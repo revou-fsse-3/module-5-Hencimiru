@@ -1,4 +1,3 @@
-// pages/index.jsx
 
 import React, { useEffect, useState, useCallback } from "react";
 import { MainWrapper } from "../styled-components/index";
