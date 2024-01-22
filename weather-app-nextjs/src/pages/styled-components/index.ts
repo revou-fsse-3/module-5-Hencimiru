@@ -57,7 +57,6 @@ export const WeatherIcon = styled.img`
 `;
 
 export const MainWrapper = styled.div`
-
   height: 100vh;
   background: linear-gradient(to right, #403a3e, #be5869);
   .topfive {
@@ -65,7 +64,7 @@ export const MainWrapper = styled.div`
     justify-content: center;
   }
   .button {
-  background: linear-gradient(to right, #403a3e, #be5869);
+    background: linear-gradient(to right, #403a3e, #be5869);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -215,3 +214,5 @@ export const MainWrapper = styled.div`
     }
   }
 `;
+
+export default MainWrapper;
